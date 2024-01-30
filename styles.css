@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.Header2{
+    position: relative;
+    list-style: none;
+    font-size: 15px;
+}
+.Menu{
+    display: none;
+}
+
+.show {
+    display: flex;
+    background-color: white;
+    height: 60%;
+    align-items: center;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.Nav2 {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+nav a img {
+    width: 50px;
+}
+
+.ListaHeader {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.ListaHeader a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.ListaHeader a:hover {
+    color: #4F6F52;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: rgb(49, 49, 49);
+}
+
+.Seccion1 {
+    width: 100%;
+    display: flex;
+}
+
+.Seccion1 img {
+    width: 50%;
+}
+
+.TextoSeccion1 {
+    width: 50%;
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.TextoSeccion1 h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3pc;
+}
+
+.TextoSeccion1 h2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2pc;
+}
+
+.TextoSeccion1 p {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1pc;
+    width: 70%;
+    text-align: center;
+}
+
+.Seccion2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.Seccion2 img {
+    width: 50%;
+}
+
+.TextoSeccion2 {
+    width: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.TextoSeccion2 h1 {
+    font-family: 'Roboto Slab', serif;
+    width: 70%;
+    text-align: center;
+    font-size: 2pc;
+}
+
+.TextoSeccion2 h2 {
+    font-family: 'Roboto Slab', serif;
+    width: 70%;
+    text-align: center;
+    font-size: 1pc;
+}
+
+.TextoSeccion2 a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 50px;
+    padding: 2px 20px 5px 20px;
+}
+
+.Seccion3 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.Seccion3 img {
+    width: 50%;
+}
+
+.TextoSeccion3 {
+    width: 50%;
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.TextoSeccion3 h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2pc;
+}
+
+.TextoSeccion3 h2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-size: 1.5pc;
+    width: 80%;
+    text-align: center;
+}
+
+.TextoSeccion3 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 2px 20px 5px 20px;
+}
+
+.Seccion4 {
+    width: 100%;
+    display: flex;
+}
+
+.Seccion4 img {
+    width: 50%;
+}
+
+.TextoSeccion4 {
+    width: 50%;
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+
+.TextoSeccion4 h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    width: 50%;
+}
+
+.TextoSeccion4 #h1-2 {
+    font-style: italic
+}
+
+.TextoSeccion4 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 2px 20px 5px 20px;
+}
+
+.Contenedorh1s {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuFooter {
+    display: flex;
+}
+
+.MenuFooter h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5pc;
+}
+
+.MenuFooter section {
+    margin: 50px;
+}
+
+.MenuFooter ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.25pc;
+}
+
+.MenuFooter ul li a:hover {
+    color: black;
+}
+
+.ListAtencion,
+.ListSobre {
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-1 img {
+    width: 175px;
+    height: 150px;
+    margin: 50px;
+}
+
+.Footer-2 img {
+    width: 30px;
+}
+
+.Footer-2 ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.Footer-2 section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-2 ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.Footer-2 ul {
+    margin: 30px;
+    gap: 20px;
+}
+
+.Footer-2 ul li a:hover {
+    color: black;
+}
+
+#Section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#Section2 p {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.List {
+    display: none;
+    margin: 20px;
+    z-index: 2;
+}
+
+@media (max-width: 1050px) {
+    .TextoSeccion3 h1 {
+        font-size: 1.5pc;
+    }
+
+    .TextoSeccion3 h2 {
+        font-size: 1pc;
+    }
+
+    .TextoSeccion4 {
+        gap: 30px;
+    }
+
+    .TextoSeccion4 h1,
+    #h1-2 {
+        font-size: 1.5pc;
+    }
+
+    #Section2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    .Seccion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Seccion img {
+        width: 100%;
+    }
+
+    .TextoSeccion1 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .TextoSeccion1 h1 {
+        font-size: 2.5pc;
+    }
+
+    .TextoSeccion1 h2 {
+        font-size: 1.5pc;
+    }
+
+    .TextoSeccion1 p {
+        font-size: 0.75pc;
+    }
+
+    .TextoSeccion2 {
+        width: 100%;
+    }
+
+    .TextoSeccion3 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .TextoSeccion4 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 666px) {
+    .Footer-1 a img {
+        width: 125px;
+        height: 100px;
+        margin: 0%;
+    }
+
+    .MenuFooter section {
+        margin: 20px;
+    }
+
+    .MenuFooter h1 a {
+        font-size: 1.25pc;
+    }
+
+    .MenuFooter ul li a {
+        font-size: 1pc;
+    }
+
+    .Footer-2 ul {
+        gap: 10px;
+    }
+
+    .Footer-2 ul li {
+        font-size: 11px;
+    }
+
+    #Section2 p {
+        font-size: 11px;
+    }
+
+    .ListaHeader,
+    .LocalizarTiendaA {
+        display: none;
+    }
+
+    .List {
+        display: flex;
+    }
+}
+
+@media (max-width: 388px) {
+    .TextoSeccion3 h1 {
+        font-size: 1.2pc;
+    }
+
+    .TextoSeccion3 {
+        gap: 20px;
+    }
+
+    .TextoSeccion3 h2 {
+        font-size: 1pc;
+    }
+
+    .MenuFooter {
+        flex-direction: column;
+    }
+
+    .MenuFooter h1 a {
+        font-size: 1pc;
+    }
+
+    .MenuFooter section {
+        margin: 10px;
+    }
+}

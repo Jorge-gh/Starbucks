@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Nav1">
+                <a href=""><img src="./img/LogoStarbucks.webp" alt=""></a>
+                <ul class="ListaHeader">
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">CAFÉ</a></li>
+                    <li><a href="#">NOVEDADES</a></li>
+                </ul>
+            </div>
+            <a class="LocalizarTiendaA" href="#" class="Nav2"><i class="bi bi-geo-alt-fill"></i>Localizar Tienda</a>
+            <li href="" class="List" onclick="toogleMenu()">
+                <i class="bi bi-list">
+
+                </i>
+            </li>
+            <div class="Menu" onclick="toogleMenu()">
+                <ul class="Header2">
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">CAFÉ</a></li>
+                    <li><a href="#">NOVEDADES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="Seccion1 Seccion">
+            <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-01%2FAF_BANNER_CONSULTIVA_WEB_WINTER.jpg?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
+                alt="">
+            <div class="TextoSeccion1 TextoSeccion">
+                <h1>Flan y caramelo</h1>
+                <h2>El modo perfecto</h2>
+                <p>¡Caramel Flan Latte, Caramel Flan Frappuccino & Caramel Flan Latte Helado!</p>
+            </div>
+        </div>
+        <div class="Seccion2 Seccion">
+            <div class="TextoSeccion2 TextoSeccion">
+                <h1>EL CORAZÓN DE NUESTRAS BEBIDAS</h1>
+                <h2>¡Colombia, Espresso Roast y Colombia Nariño!</h2>
+                <a href="#">Conoce más</a>
+            </div>
+            <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2023-08%2FAF_BANNER_CONSULTIVA_WEB_JUNTOS_POR_EL_CAFÉ--_0.jpg?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
+                alt="">
+        </div>
+        <div class="Seccion3 Seccion">
+            <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2023-12%2FBanner_cambio.jpg?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
+                alt="">
+            <div class="TextoSeccion3 TextoSeccion">
+                <h1>INFORME DE SUSTENTABILIDAD</h1>
+                <h2>Juntos seguimos construyendo un futuro más sostenible para el café💚</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="Seccion4 Seccion">
+            <div class="TextoSeccion4 TextoSeccion">
+                <div class="Contenedorh1s">
+                    <h1>Términos y Condiciones</h1>
+                    <h1 id="h1-2">ACTIVIDADES</h1>
+                </div>
+                <a href="#">Más informacion</a>
+            </div>
+            <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2023-12%2FBanner_terminos.jpg?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
+                alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="Footer-1">
+            <div class="MenuFooter">
+                <section>
+                    <h1><a href="#">Sobre nosotros</a></h1>
+                    <ul class="ListSobre">
+                        <li><a href="#">Acerca de Starbucks</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Historias y noticias <br>Starbucks</a></li>
+                        <li><a href="#">Sobre Notmilk</a></li>
+                        <li><a href="#">Guía de preparación de <br> un buen café en casa</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1><a href="">Atencion Al Cliente</a></h1>
+                    <ul class="ListAtencion">
+                        <li><a href="#">Sugerencias y reclamos</a></li>
+                        <li><a href="#">Factura Electrónica</a></li>
+                    </ul>
+                </section>
+            </div>
+            <a href="#"><img src="https://www.starbucks.com.co/static/images/footer-colombia.png" alt=""></a>
+        </div>
+        <div class="Footer-2">
+            <section>
+                <ul>
+                    <li><a href="#"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facebook_icon_%28black%29.svg/1024px-Facebook_icon_%28black%29.svg.png"
+                                alt=""></a></li>
+                    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2175/2175198.png" alt=""></a></li>
+                    <li><a href="#"><img
+                                src="data:image/png;base64,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"
+                                alt=""></a></li>
+                </ul>
+            </section>
+            <section id="Section2">
+                <ul>
+                    <li><a href="#">Términos de uso web</a></li>
+                    <li>|</li>
+                    <li><a href="#">Aviso de Privacidad</a></li>
+                    <li>|</li>
+                    <li><a href="#">Política de tratamiento de datos</a></li>
+                    <li>|</li>
+                    <li><a href="#">Revisión de pago</a></li>
+                    <li>|</li>
+                    <li><a href="#">Política de garantias</a></li>
+                </ul>
+
+                <p>Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos <br>
+                    co | prod | 00b920354402e1420b2d598bbc98afb32b3e2660 | 12/01/2024-23:41:36:636</p>
+            </section>
+        </div>
+    </footer>
+    <script>
+        function toogleMenu() {
+            let menu = document.querySelector('.Menu')
+            menu.classList.toggle("show")
+        }
+        function toogleMenu2() {
+            let menu = document.querySelector('.ListAtencion')
+            menu.classList.toggle("show")
+        }
+
+        function toogleMenu3() {
+            let menu = document.querySelector('.ListSobre')
+            menu.classList.toggle("show")
+        }
+
+
+    </script>
+</body>
+
+</html>
